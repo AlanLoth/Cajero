@@ -6,10 +6,14 @@ import javax.swing.*;
  **/
 public class cosa {
     public static void main(String[] args) {
-        cajero cajero = new cajero();
-	cajero.setBounds(100, 100, 750, 750);
+        formulario cajero = new formulario();
+	cajero.setBounds(100, 100, 400, 500);
 	cajero.setResizable(false);
 	cajero.setVisible(true);
         cajero.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        cajero uno = new cajero();
+        uno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Ingresar dos = new Ingresar();
+        dos.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
