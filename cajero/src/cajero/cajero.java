@@ -17,6 +17,8 @@ public class cajero extends JFrame implements ActionListener{
             cosa = new JTextField();
             cosa.setBounds(0,0,310,40);
             add(cosa);
+            cosa.setEditable(false);
+            cosa.setBackground(Color.white);
             
             cosa2 = new JTextField();
             cosa2.setBounds(320,0,310,40);
