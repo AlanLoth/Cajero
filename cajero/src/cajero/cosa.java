@@ -11,9 +11,5 @@ public class cosa {
 	cajero.setResizable(false);
 	cajero.setVisible(true);
         cajero.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        cajero uno = new cajero();
-        uno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Ingresar dos = new Ingresar();
-        dos.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
